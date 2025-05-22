@@ -1,5 +1,5 @@
 
-Ultrasonic Distance Alert System Documentation 🚗🔊💡
+Distance Alert System  🚗🔊💡
 
 Overview  
 Hey! I built this Ultrasonic Distance Alert System that mimics a car parking sensor. It uses an ultrasonic sensor to measure distance, lights up LEDs via a shift register to visually show how close an object is, and sounds a buzzer with varying beep rates to alert me. Plus, I added a mute button to silence the buzzer when needed. I also included a serial bar indicator so I can see the distance feedback on my computer monitor. Cool, right? 😎
