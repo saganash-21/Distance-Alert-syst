@@ -8,22 +8,23 @@ Hey! I built this Ultrasonic Distance Alert System that mimics a car parking sen
 
 Components Used 🧰
 
-| Component            | Quantity | Purpose                                       |
-|----------------------|----------|-----------------------------------------------|
-| Arduino Uno (or similar) | 1        | Main microcontroller to run the system       |
-| Ultrasonic Sensor (HC-SR04) | 1        | Measures distance by sending and receiving sound waves |
-| 74HC595 Shift Register | 1        | Controls 8 LEDs with just 3 Arduino pins      |
-| LEDs:                 | 8        | Visual distance indicator lights              |
-| - Red LEDs            | 2        | Closest warning zone                           |
-| - Yellow LEDs         | 2        | Second zone                                   |
-| - Blue LEDs           | 2        | Third zone                                    |
-| - White LEDs          | 2        | Farthest zone                                 |
-| Buzzer                | 1        | Audio alert with beep patterns                 |
-| Pushbutton (mute)     | 1        | Toggles buzzer sound on/off                     |
-| 10kΩ Resistor         | 1        | Pull-down resistor for the mute button          |
-| Jumper wires          | Several  | For all connections                            |
-| Breadboard            | 1        | For easy circuit assembly                       |
-| Power supply (USB from PC or 5V adapter) | 1 | Powers the Arduino and components             |
+| Component             | Quantity | Purpose                                                |
+|-----------------------|----------|--------------------------------------------------------|
+| Arduino Uno           | 1        | Main microcontroller to run the system                 |
+| Ultrasonic Sensor     | 1        | Measures distance by sending and receiving sound waves |
+| 74HC595 Shift Register| 1        | Controls 8 LEDs with just 3 Arduino pins               |
+| LEDs:                 | 8        | Visual distance indicator lights                       |
+| - Red LEDs            | 2        | Closest warning zone                                   |
+| - Yellow LEDs         | 2        | Second zone                                            |
+| - Blue LEDs           | 2        | Third zone                                             |
+| - White LEDs          | 2        | Farthest zone                                          |
+| Buzzer                | 1        | Audio alert with beep patterns                         |
+| Pushbutton (mute)     | 1        | Toggles buzzer sound on/off                            |
+| 10kΩ Resistor         | 1        | Pull-down resistor for the mute button                 |
+| 220Ω Resistor         | 8        | Limit amount of current passing through the LEDs       |
+| Jumper wires          | Several  | For all connections                                    |
+| Breadboard            | 1        | For easy circuit assembly                              |
+| Power supply          | 1        | Powers the Arduino and components                      |
 
 ---
 
